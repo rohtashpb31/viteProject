@@ -1,0 +1,200 @@
+/* ===========================
+      MAIN FOOTER SECTION
+=========================== */
+.footer-section {
+  padding: 60px 0;
+  margin-top: 60px;
+  color: #c9d5e0;
+  background: #ffffff07;
+  border: 1px solid #ffffff45;
+  box-shadow: 0 4px 30px #0000001a;
+  backdrop-filter: blur(8px);
+}
+
+/* Headings */
+.footer-heading {
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.footer-list {
+  padding: 0 !important;
+
+}
+
+/* List */
+.footer-list li {
+  list-style: none;
+  color: #c7d0dd;
+  margin-bottom: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.footer-list li:hover {
+  color: #4bbffe;
+}
+
+/* About Section */
+.footer-about {
+  color: #b8c7d6;
+  line-height: 1.6;
+  max-width: 300px;
+}
+
+/* Newsletter */
+.newsletter-input {
+  background: transparent;
+  border: 1px solid #4776aa;
+  color: #fff;
+  padding: 10px;
+}
+
+.newsletter-input::placeholder {
+  color: #9db3c7;
+}
+
+.newsletter-btn {
+  background: transparent;
+  border: 2px solid #157bff;
+  color: #fff;
+}
+
+.newsletter-btn:hover {
+  background: #157bff;
+}
+
+/* Divider line */
+.footer-line {
+  border-color: rgba(255, 255, 255, 0.1);
+  margin: 25px 0;
+}
+
+/* Office Cards */
+.office-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(6px);
+  padding: 20px;
+  border-radius: 16px;
+  color: #d7e5f5;
+  transition: all 0.2s ease-in-out;
+}
+
+.office-branch {
+  border-bottom: 2px solid #fff;
+  display: inline-block;
+  font-weight: 600;
+}
+
+.office-state {
+  font-size: 20px;
+  font-weight: bold;
+  color: #6ec8ff;
+  margin-bottom: 10px;
+}
+
+.footer-bottom {
+  color: #7a8ca0;
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+.office-card:hover {
+   transform: translateY(-10px);
+}
+
+.footer-section .animated-card .box {
+  height: 260px;
+} 
+
+.footer-section .animated-card .box .content {
+  z-index: 8;
+}
+
+/* ===========================
+         RESPONSIVE
+=========================== */
+
+/* TABLET (max-width: 992px) */
+@media (max-width: 992px) {
+  .footer-top {
+    text-align: center;
+  }
+
+  .footer-heading {
+    margin-top: 20px;
+  }
+
+  .footer-about {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .newsletter-input,
+  .newsletter-btn {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+/* MOBILE (max-width: 768px) */
+@media (max-width: 768px) {
+
+  /* Make every column 100% width and centered */
+  .footer-top .col-md-4,
+  .footer-top .col-md-2 {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 35px;
+  }
+
+  .footer-about {
+    max-width: 100%;
+    text-align: left;
+  }
+
+  .footer-list {
+    text-align: left;
+  }
+
+  /* Newsletter full width */
+  .newsletter-input,
+  .newsletter-btn {
+    width: 100%;
+  }
+
+  /* Office cards stacking */
+  .office-card {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .footer-bottom {
+    font-size: 13px;
+    margin-top: 35px;
+  }
+}
+
+/* SMALL MOBILE (max-width: 480px) */
+@media (max-width: 480px) {
+  .footer-heading {
+    font-size: 16px;
+  }
+
+  .footer-list li {
+    font-size: 14px;
+  }
+
+  .office-state {
+    font-size: 18px;
+  }
+
+  .footer-section {
+    padding: 40px 0;
+  }
+}

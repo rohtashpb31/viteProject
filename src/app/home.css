@@ -1,0 +1,400 @@
+/* NAVBAR */
+
+
+.navbar ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+
+
+.logo {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+
+/* HERO SECTION */
+
+.hero-container {
+    width: 100%;
+    height: 90vh;
+    background: url("/server-lights-blur.jpg") center/cover no-repeat;
+}
+
+.hero {
+    display: flex;
+    padding: 80px 50px;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.hero-section {
+    
+    border-radius: 20px;
+    height: 500px;
+    
+}
+
+.home-slider-wrap .swiper-slide {
+  background: transparent;
+}
+
+.hero-section {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+}
+
+.slide-video,
+.slide-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+/* BUTTONS */
+
+.btn-primary {
+    background: #00c8ff;
+    color: #000;
+    padding: 12px 28px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.btn-outline {
+    margin-top: 15px;
+    padding: 10px 24px;
+    background: transparent;
+    border: 2px solid #00c8ff;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #00c8ff;
+}
+
+
+/* SECTIONS */
+
+.section {
+    padding: 60px 50px;
+}
+
+
+/* about section css  */
+
+.about-section {
+    width: 100%;
+    margin-top: 40px;
+    padding: 60px;
+    background: rgba(255, 255, 255, 0.027);
+    backdrop-filter: blur(8px) !important;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.27);
+}
+
+.about-section .card {
+    border: none !important;
+}
+
+/* LEFT CONTENT */
+
+.about-text {
+    flex: 1 1 50%;
+    color: white;
+}
+
+.about-title {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.about-title span {
+    color: #2e8bfe;
+}
+
+.about-desc {
+    margin-top: 18px;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #d0d0d0;
+    max-width: 90%;
+}
+
+.quote-btn {
+    margin-top: 35px;
+    padding: 12px 34px;
+    background: transparent;
+    border: 1px solid #2e8bfe;
+    color: #2e8bfe;
+    font-size: 15px;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.quote-btn:hover {
+    background: #2e8bfe;
+    color: white;
+}
+
+
+/* RIGHT IMAGE */
+
+.about-image-wrapper {
+    flex: 1 1 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.about-image-box {
+    padding: 12px;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(14px);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+}
+
+.about-image {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 992px) {
+    .about-title {
+        font-size: 38px;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-container {
+        flex-direction: column;
+        text-align: left;
+    }
+    .about-title {
+        font-size: 32px;
+    }
+    .about-desc {
+        max-width: 100%;
+    }
+}
+
+
+/* our section css  */
+
+/* Wrapper */
+.projects-wrapper {
+  padding: 80px 0;
+  text-align: center;
+}
+
+/* Heading */
+.projects-heading {
+  color: white;
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Card */
+.primary-card {
+  width: 100%;
+  max-width: 320px;
+  background: rgba(255, 255, 255, 0.07);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  overflow: hidden;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+  transition: 0.3s ease;
+  padding: 20px;
+}
+
+.primary-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.4);
+}
+
+/* Image */
+.primary-card-image {
+  width: 100%;
+  height: 300px;
+  min-height: 300px;
+  overflow: hidden;
+}
+
+.primary-card-imagewrap {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.project-image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  
+}
+
+
+
+/* Title */
+.card-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  margin-top: 10px;
+}
+
+/* Price text */
+.project-price {
+  font-size: 14px;
+  margin-top: 5px;
+  color: #4db8ff;
+  font-weight: 600;
+}
+
+
+/* our equipment css start here  */
+
+.our-equipment .swiper-slide {
+  background: none !important;
+}
+
+.our-equipment .primary-card:hover {
+    transform: translateY(0);
+}
+
+
+/* construction work section css  */
+
+.cunstruction-work .card-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+
+.cunstruction-work .primary-card::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(13,14,14, 0.599);
+  z-index: 1;
+  transition: all 0.2s ease-in-out;
+}
+
+.cunstruction-work .primary-card:hover .primary-card-imagewrap::after{
+    background: none;
+}
+
+.cunstruction-work .primary-card:hover .card-title {
+    display: none;
+}
+
+/* how we work css  */
+
+.how-we-work .primary-card-imagewrap img {
+  background-size: contain;
+}
+
+.how-we-work .primary-card-image {
+  height: 200px;
+  min-height: 200px;
+}
+
+.client-testimonial-card .client-image {
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   overflow: hidden;
+   margin: auto;
+   position: relative;
+}
+
+.client-testimonial-card .client-image img {
+  width: 100%;
+  height: 100%;
+  
+}
+
+.client-testimonial-card  {
+ max-width: 100%;
+ padding: 30px;
+}
+
+.client-testimonial-card .card-title {
+    font-size: 14px;
+}
+
+.client-testimonial-card .client-rating {
+   width: 100px;
+   position: relative;
+   margin: auto;
+   height: 30px;
+   margin-top: 20px;
+}
+
+.client-testimonial-card .client-rating img { 
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* media query  */
+
+@media (max-width: 991px) {
+    .about-desc {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:768px) {
+    .about-section {
+        padding: 20px;
+    }
+
+    .animated-card .box .content {
+        padding: 20px 8px;
+    }
+
+    .animated-card .box {
+        width: 280px;
+        height: 348px;
+    }
+
+    .about-section .box-image {
+        height: 288px;
+    }
+}

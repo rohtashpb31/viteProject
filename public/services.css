@@ -1,0 +1,72 @@
+.services-section {
+  padding-top: 70px;
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.tabs-wrapper .tab-btn {
+  padding: 10px 25px;
+  border-radius: 50px;
+  font-weight: 600;
+  border: 2px solid #1e90ff;
+  background: transparent;
+  color: #fff;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.tabs-wrapper .tab-btn.active,
+.tabs-wrapper .tab-btn:hover {
+  background: #1e90ff;
+  color: #000;
+}
+
+.service-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 18px;
+  padding: 25px;
+  backdrop-filter: blur(12px);
+  transition: 0.3s ease;
+  height: 100%;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  border-color: #1e90ff;
+}
+
+.service-img {
+  height: 220px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 2px dashed rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  position: relative;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.service-img img {
+  object-fit: cover;
+}
+
+.service-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.service-desc {
+  font-size: 15px;
+  color: #ddd;
+}
+
+.service-img .holographic-card {
+  height: 100%;
+}
