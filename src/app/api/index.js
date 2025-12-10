@@ -13,7 +13,7 @@ export const fetchHeroes = async () => {
     return [];
   }
 };
-// GET about data (includes about arra mission)
+
 export const fetchHomeAbout = async () => {
   try {
     const response = await axios.get(`${BASE_URL}/about`);
